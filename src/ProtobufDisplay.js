@@ -16,6 +16,11 @@ function ProtobufDisplay(props) {
 
   return (
     <Fragment>
+      <style
+        dangerouslySetInnerHTML={{
+          __html: `td { white-space: pre-wrap; word-break: break-word }`
+        }}
+      />
       <Table celled>
         <Table.Header>
           <Table.Row>
